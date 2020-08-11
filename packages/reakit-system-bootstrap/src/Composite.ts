@@ -36,7 +36,7 @@ export function useCompositeItemProps(
     [aria-activedescendant="${id}"]:focus &[aria-selected="true"],
     [aria-activedescendant="${id}"]:focus ~ * &[aria-selected="true"] {
       color: ${color};
-      background-color ${backgroundColor};
+      background-color: ${backgroundColor};
     }
   `;
 
